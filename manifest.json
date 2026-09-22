@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "org.user.media-awake",
+  "name": "Media Awake",
+  "version": "1.0.0",
+  "author": "You",
+  "description": "Prevents idle sleep while media is playing",
+  "kinds": [
+    "service",
+    "bar-widget"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "service": "Service.qml",
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Media Awake",
+    "description": "Toggle media playback sleep inhibition",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
