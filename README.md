@@ -15,7 +15,7 @@ the feature directly.
 ## Install
 
 ```bash
-omarchy plugin add https://github.com/YOUR_USERNAME/omarchy-media-awake.git --enable
+omarchy plugin add https://github.com/sumit-official/omarchy-media-awake.git --enable
 omarchy bar put org.user.media-awake right
 ```
 
@@ -56,4 +56,3 @@ omarchy plugin validate .
 ```
 
 The plugin is user-scoped and does not modify `/usr/share/omarchy/`.
-
