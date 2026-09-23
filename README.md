@@ -4,6 +4,8 @@ An Omarchy shell plugin that prevents the screensaver and system sleep while
 media is actively playing. When playback stops, normal Omarchy idle behavior
 returns.
 
+![Media Awake screenshot](./media-awake-screenshot.svg)
+
 The plugin uses Quickshell's MPRIS integration, so it works with media players
 and browsers that publish playback state through MPRIS, including Firefox and
 Chromium-based browsers when their media integration is available.
